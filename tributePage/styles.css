@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif, Arial;
+  padding: 20px 10px;
+}
+
+main {
+  background-color: #eee;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.img-cap {
+  margin-top: 16px;
+}
+
+h1, p, h2, h3, .img-cap {
+  text-align: center;
+  color: rgb(54, 54, 54);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style: georgian;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li:last-of-type {
+  margin-bottom: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+li::marker {
+  color: rgb(117, 117, 117);
+  margin: 0;
+  padding: 0;
+}
