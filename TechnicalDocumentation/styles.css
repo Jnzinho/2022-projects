@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+body {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+p {
+    margin-bottom: 2px;
+}
