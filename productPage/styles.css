@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2rem;
+}
+
+#header-img {
+    height: 35%;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mac-image {
+    width: 80%;
+}
+
+#product-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: -9rem;
+    z-index: 2;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(152, 152, 152);
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+
+#product-video 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    border: solid 1px gray;
+    font-size: 1rem;
+    color: gray;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    margin-right: 1%;
+}
+
+
+#submit {
+    border: solid 1px blue;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.5s;
+}
+
+#submit:hover {
+    background-color: rgb(52, 52, 254);
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.stock {
+    color: orange;
+}
+
+.availability {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.nav-title {
+    color: rgb(187, 187, 187);
+}
+
+@media screen and (max-width: 900px)
+{
+    h1 {
+        font-size: 2rem;
+        top: -4.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
