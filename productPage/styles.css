@@ -16,6 +16,7 @@ header {
     left: 0;
     right: 0;
     height: 2rem;
+    white-space: nowrap;
 }
 
 #header-img {
